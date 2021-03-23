@@ -82,3 +82,4 @@ document.getElementById('submit').addEventListener("click", function(event) {
     div.innerHTML = commentText.value;
     document.getElementById("list").appendChild(div);
     commentText.value = "";
+})
